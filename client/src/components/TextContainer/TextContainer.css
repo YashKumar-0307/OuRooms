@@ -1,0 +1,94 @@
+.textContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 0%;
+  margin-left: 100px;
+  color: white;
+  height: 99vh;
+  justify-content: space-between;
+  font-family: cursive;
+}
+
+.video-container {
+  margin: 0px;
+  padding: 0px;
+  top: 0%;
+}
+
+/* .textInnerContainer {
+  position: relative;
+  top: -20%;
+} */
+
+.activeContainer {
+  font-family: fantasy;
+  display: grid;
+  align-items: center;
+  margin-bottom: 10%;
+  top: 0%;
+}
+.videoPlayer {
+  top: 0%;
+  /* height: 160%; */
+  /* width: 70%; */
+}
+.videoLink {
+  /* border-right: 3px solid rgb(214, 8, 8); */
+  height: 3rem;
+  width: 85%;
+  font-style: italic;
+  border-radius: 5px 0 0 5px;
+}
+.videoUpload {
+  width: 15%;
+  padding: 2px;
+  background-color: rgb(96, 43, 157);
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.videoUpload:hover {
+  color: #fff;
+}
+
+.videoForm {
+  width: 30%;
+  position: fixed;
+  display: flex;
+  border-radius: 10px;
+  right: 3rem;
+  border: 3px solid rgb(100, 100, 100);
+}
+
+.chat-logo {
+  width: 4rem;
+  position: relative;
+  top: 20px;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1800px) {
+  .videoUpload {
+    font-size: x-small;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}

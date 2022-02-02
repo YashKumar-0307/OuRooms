@@ -9,7 +9,7 @@ import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 import fileDownload from 'js-file-download'
 const axios = require('axios')
-const ENDPOINT = 'http://localhost:5001/';
+const ENDPOINT = 'http://ouroom.herokuapp.com/';
 
 let socket;
 
